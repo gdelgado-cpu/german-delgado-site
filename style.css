@@ -66,6 +66,10 @@ a:hover { color: #ff8c66; }
 }
 
 /* Ocultar botón de menú hamburguesa y sidebar innecesario */
-.header .head-top .menu-btn,
+.menu-btn,
+.sidebar_btn,
 .sidebar,
-#sidebar { display: none !important; }
+#sidebar,
+.content-sidebar { display: none !important; }
+.sidebar_active .content-sidebar,
+.sidebar_active .sidebar { display: none !important; }
