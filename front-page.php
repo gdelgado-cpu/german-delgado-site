@@ -181,30 +181,6 @@ get_header();
 		<div class="box-items portfolio-items">
 			<div class="box-item">
 				<div class="image">
-					<a href="https://recuerdosauntoque.com" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-recuerdos.jpg' ); ?>" alt="Recuerdos a un Toque" />
-						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
-					</a>
-				</div>
-				<div class="desc">
-					<div class="category">NFC + QR</div>
-					<a href="https://recuerdosauntoque.com" target="_blank" rel="noopener" class="name">Recuerdos a un Toque</a>
-				</div>
-			</div>
-			<div class="box-item">
-				<div class="image">
-					<a href="https://arabiaperfumes.com.co" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-arabia.jpg' ); ?>" alt="Arabia Perfumes" />
-						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
-					</a>
-				</div>
-				<div class="desc">
-					<div class="category">E-commerce</div>
-					<a href="https://arabiaperfumes.com.co" target="_blank" rel="noopener" class="name">Arabia Perfumes</a>
-				</div>
-			</div>
-			<div class="box-item">
-				<div class="image">
 					<a href="https://instapromt.io" target="_blank" rel="noopener">
 						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-instapromt.jpg' ); ?>" alt="Insta.PROMT" />
 						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
@@ -225,6 +201,30 @@ get_header();
 				<div class="desc">
 					<div class="category">Mapa + CMS</div>
 					<a href="https://sobrevivientes-clerical.org" target="_blank" rel="noopener" class="name">RESABSEC / Sobrevivientes</a>
+				</div>
+			</div>
+			<div class="box-item">
+				<div class="image">
+					<a href="https://arabiaperfumes.com.co" target="_blank" rel="noopener">
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-arabia.jpg' ); ?>" alt="Arabia Perfumes" />
+						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
+					</a>
+				</div>
+				<div class="desc">
+					<div class="category">E-commerce</div>
+					<a href="https://arabiaperfumes.com.co" target="_blank" rel="noopener" class="name">Arabia Perfumes</a>
+				</div>
+			</div>
+			<div class="box-item">
+				<div class="image">
+					<a href="https://recuerdosauntoque.com" target="_blank" rel="noopener">
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-recuerdos.jpg' ); ?>" alt="Recuerdos a un Toque" />
+						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
+					</a>
+				</div>
+				<div class="desc">
+					<div class="category">NFC + QR</div>
+					<a href="https://recuerdosauntoque.com" target="_blank" rel="noopener" class="name">Recuerdos a un Toque</a>
 				</div>
 			</div>
 		</div>
