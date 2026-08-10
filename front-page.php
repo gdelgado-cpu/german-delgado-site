@@ -19,6 +19,7 @@ get_header();
 					<p>Automatización IA &amp; No-Code</p>
 					<p>UI/UX</p>
 					<p>Producción de Video con IA</p>
+					<p>Git deploy activo ✓</p>
 				</div>
 				<span class="typed-subtitle"></span>
 			</div>
