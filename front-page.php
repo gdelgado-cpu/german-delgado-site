@@ -19,7 +19,6 @@ get_header();
 					<p>Automatización IA &amp; No-Code</p>
 					<p>UI/UX</p>
 					<p>Producción de Video con IA</p>
-					<p>Git deploy activo ✓</p>
 				</div>
 				<span class="typed-subtitle"></span>
 			</div>
@@ -49,6 +48,9 @@ get_header();
 				<a href="https://wa.me/573174158919" target="_blank" rel="noopener" class="btn fill" data-text="Escríbeme por WhatsApp">Escríbeme por WhatsApp</a>
 				<a href="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/cv_german_delgado.pdf' ); ?>" class="btn fill" target="_blank" rel="noopener" data-text="Descargar CV">Descargar CV</a>
 			</div>
+		</div>
+		<div class="image">
+			<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/photo-german.jpg' ); ?>" alt="Germán Delgado" />
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -258,12 +260,6 @@ get_header();
 				<div class="name">Instagram</div>
 				<p><a href="https://www.instagram.com/german_d_d/" target="_blank" rel="noopener">@german_d_d</a></p>
 			</div>
-		</div>
-		<div class="title">
-			<div class="title_inner">Enviar Mensaje</div>
-		</div>
-		<div class="contact_form">
-			<?php echo do_shortcode( '[contact-form-7 id="5" title="Formulario de contacto 1"]' ); ?>
 		</div>
 	</div>
 </div>
