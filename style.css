@@ -1,0 +1,42 @@
+/*
+Theme Name: Glitche Child - Germán Delgado
+Theme URI: https://bslthemes.com/
+Author: Bslthemes (modificado por IA para Germán Delgado)
+Author URI: https://themeforest.net/user/bslthemes
+Description: Child theme de Glitche personalizado con la información de Germán Andrés Delgado Lozano.
+Version: 1.2.0
+License: General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Template: glitche
+Text Domain: glitche-child
+Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options
+*/
+
+/* Modo oscuro forzado */
+body, .container .line { background: #26262d; }
+.container,
+.section:before,
+.footer,
+.header,
+.preloader { background: #31313a; }
+body, td, blockquote, .single-post-text, p { color: #a2a2a6; }
+h1, h2, h3, h4, h5, h6,
+.section.started .started-content .h-title,
+.section .content .title .title_inner,
+.resume-items .resume-item .name,
+.service-items .service-item .name,
+.info-list ul li strong { color: #f0f0f0; }
+a { color: #f26b38; }
+a:hover { color: #ff8c66; }
+.section .content .title .title_inner { box-shadow: inset 0 -6px 0px #666666; }
+.header .head-top .top-menu ul li a { color: #f0f0f0; }
+.header .head-top .top-menu ul li.current-menu-item > a,
+.header .head-top .top-menu ul li a:hover { color: #f26b38; }
+.footer .copy { color: #a2a2a6; }
+.footer .soc a .ion { color: #f0f0f0; }
+.footer .soc a:hover .ion { color: #f26b38; }
+.skills ul li .progress { background: #666666; }
+.skills ul li .progress .percentage { background: #f26b38; }
+.resume-items .resume-item .date { color: #f26b38; }
+.box-items .box-item .desc .name { color: #f0f0f0; }
+.box-items .box-item .category { color: #f26b38; }
