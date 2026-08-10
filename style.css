@@ -41,28 +41,27 @@ a:hover { color: #ff8c66; }
 .box-items .box-item .desc .name { color: #f0f0f0; }
 .box-items .box-item .category { color: #f26b38; }
 
-/* Foto de perfil alineada a la izquierda del texto en Sobre Mí */
+/* Foto de perfil circular a la izquierda del texto en Sobre Mí */
 .about-with-photo { overflow: hidden; }
 .about-with-photo .about-photo {
     float: left;
-    width: 38%;
+    width: 220px;
     margin: 0 30px 20px 0;
 }
 .about-with-photo .about-photo img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 @media (max-width: 768px) {
     .about-with-photo .about-photo {
         float: none;
-        width: 100%;
-        margin: 0 0 20px 0;
+        width: 180px;
+        margin: 0 auto 20px auto;
         text-align: center;
-    }
-    .about-with-photo .about-photo img {
-        max-width: 320px;
     }
 }
 
