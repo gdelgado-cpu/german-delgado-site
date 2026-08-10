@@ -65,3 +65,8 @@ a:hover { color: #ff8c66; }
         max-width: 320px;
     }
 }
+
+/* Ocultar botón de menú hamburguesa y sidebar innecesario */
+.header .head-top .menu-btn,
+.sidebar,
+#sidebar { display: none !important; }
