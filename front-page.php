@@ -33,7 +33,10 @@ get_header();
 		<div class="title">
 			<div class="title_inner">Sobre Mí</div>
 		</div>
-		<div class="desc">
+		<div class="desc about-with-photo">
+			<div class="about-photo">
+				<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/photo-german.jpg' ); ?>" alt="Germán Delgado" />
+			</div>
 			<p>Ingeniero de Sistemas graduado en mayo de 2024, con experiencia progresiva en soporte de sistemas, desarrollo de software y automatización de procesos con inteligencia artificial. Ubicado en Ibagué, Tolima, Colombia.</p>
 			<p>Diseño interfaces, automatizo flujos y genero contenido con IA: video con Kling 3.0 y Higgsfield, voz con MiniMax, y orquestación de agentes con n8n, Claude y Ollama.</p>
 			<div class="info-list">
@@ -49,10 +52,6 @@ get_header();
 				<a href="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/cv_german_delgado.pdf' ); ?>" class="btn fill" target="_blank" rel="noopener" data-text="Descargar CV">Descargar CV</a>
 			</div>
 		</div>
-		<div class="image">
-			<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/photo-german.jpg' ); ?>" alt="Germán Delgado" />
-		</div>
-		<div class="clear"></div>
 	</div>
 </div>
 
