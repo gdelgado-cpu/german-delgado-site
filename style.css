@@ -41,6 +41,25 @@ a:hover { color: #ff8c66; }
 .box-items .box-item .desc .name { color: #f0f0f0; }
 .box-items .box-item .category { color: #f26b38; }
 
+/* Tarjetas de portafolio con logos */
+.box-items .box-item .image.project-logo-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3a3a42;
+}
+.box-items .box-item .image.project-logo-card img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+.box-items .box-item .image.project-logo-card a:hover img {
+    transform: scale(1.05);
+}
+
 /* Foto de perfil circular a la izquierda del texto en Sobre Mí */
 .about-with-photo { overflow: hidden; }
 .about-with-photo .about-photo {

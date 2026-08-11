@@ -180,9 +180,9 @@ get_header();
 		</div>
 		<div class="box-items portfolio-items">
 			<div class="box-item">
-				<div class="image">
+				<div class="image project-logo-card">
 					<a href="https://instapromt.io" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-instapromt.jpg' ); ?>" alt="Insta.PROMT" />
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-instapromt.svg' ); ?>" alt="Insta.PROMT" />
 						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
 					</a>
 				</div>
@@ -192,9 +192,9 @@ get_header();
 				</div>
 			</div>
 			<div class="box-item">
-				<div class="image">
+				<div class="image project-logo-card">
 					<a href="https://sobrevivientes-clerical.org" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-resabsec.jpg' ); ?>" alt="RESABSEC" />
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-resabsec.png' ); ?>" alt="RESABSEC" />
 						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
 					</a>
 				</div>
@@ -204,9 +204,9 @@ get_header();
 				</div>
 			</div>
 			<div class="box-item">
-				<div class="image">
+				<div class="image project-logo-card">
 					<a href="https://arabiaperfumes.com.co" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-arabia.jpg' ); ?>" alt="Arabia Perfumes" />
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-arabia.png' ); ?>" alt="Arabia Perfumes" />
 						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
 					</a>
 				</div>
@@ -216,9 +216,9 @@ get_header();
 				</div>
 			</div>
 			<div class="box-item">
-				<div class="image">
+				<div class="image project-logo-card">
 					<a href="https://recuerdosauntoque.com" target="_blank" rel="noopener">
-						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-recuerdos.jpg' ); ?>" alt="Recuerdos a un Toque" />
+						<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/project-recuerdos.png' ); ?>" alt="Recuerdos a un Toque" />
 						<span class="info"><span class="centrize full-width"><span class="vertical-center"><span class="ion ion-link"></span></span></span></span>
 					</a>
 				</div>
