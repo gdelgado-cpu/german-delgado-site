@@ -12,6 +12,13 @@ function german_glitche_child_scripts() {
     wp_enqueue_style( 'glitche-child-style', get_stylesheet_uri(), array( 'glitche-dark-style' ), wp_get_theme()->get( 'Version' ) );
 }
 
+// Favicon personalizado del sitio.
+add_action( 'wp_head', 'german_glitche_favicon', 1 );
+function german_glitche_favicon() {
+    echo '<link rel="icon" type="image/svg+xml" href="' . esc_url( get_stylesheet_directory_uri() . '/assets/favicon.svg' ) . '" />' . "\n";
+    echo '<link rel="apple-touch-icon" href="' . esc_url( get_stylesheet_directory_uri() . '/assets/favicon.svg' ) . '" />' . "\n";
+}
+
 // CSS inline para corregir colores oscuros, botones, formulario y hero.
 add_action( 'wp_head', 'german_glitche_force_dark_css', 100 );
 function german_glitche_force_dark_css() {
