@@ -28,34 +28,34 @@ function german_glitche_force_dark_css() {
         .container, .section:before, .footer, .header, .preloader { background: #31313a !important; }
         body, p, .single-post-text, td, blockquote, .copy, .resume-items .resume-item .single-post-text { color: #a2a2a6 !important; }
         h1, h2, h3, h4, h5, h6, .section.started .started-content .h-title, .section .content .title .title_inner, .resume-items .resume-item .name, .service-items .service-item .name, .info-list ul li strong { color: #f0f0f0 !important; }
-        a, .section.works .filters label { color: #f26b38 !important; }
-        a:hover { color: #ff8c66 !important; }
+        a, .section.works .filters label { color: #FDBD06 !important; }
+        a:hover { color: #FDBD06 !important; }
         .section .content .title .title_inner { box-shadow: inset 0 -6px 0px #666666 !important; }
         .header .head-top .top-menu ul li a { color: #f0f0f0 !important; }
-        .header .head-top .top-menu ul li.current-menu-item > a, .header .head-top .top-menu ul li a:hover { color: #f26b38 !important; }
+        .header .head-top .top-menu ul li.current-menu-item > a, .header .head-top .top-menu ul li a:hover { color: #FDBD06 !important; }
         .footer .soc a .ion { color: #f0f0f0 !important; }
-        .footer .soc a:hover .ion { color: #f26b38 !important; }
+        .footer .soc a:hover .ion { color: #FDBD06 !important; }
         .skills ul li .progress { background: #666666 !important; }
-        .skills ul li .progress .percentage { background: #f26b38 !important; }
-        .resume-items .resume-item .date { color: #f26b38 !important; }
+        .skills ul li .progress .percentage { background: #FDBD06 !important; }
+        .resume-items .resume-item .date { color: #FDBD06 !important; }
         .box-items .box-item .desc .name { color: #f0f0f0 !important; }
-        .box-items .box-item .category { color: #f26b38 !important; }
+        .box-items .box-item .category { color: #FDBD06 !important; }
 
         /* Botones con texto visible */
         a.btn.fill, .btn.fill, button.btn.fill, input.btn.fill {
             color: #ffffff !important;
-            border-color: #f26b38 !important;
+            border-color: #FDBD06 !important;
         }
         a.btn.fill:hover, .btn.fill:hover, button.btn.fill:hover, input.btn.fill:hover {
-            color: #f26b38 !important;
+            color: #FDBD06 !important;
             background: transparent !important;
         }
         a.btn, .btn, button.btn, input.btn {
             color: #ffffff !important;
-            border-color: #f26b38 !important;
+            border-color: #FDBD06 !important;
         }
         a.btn:hover, .btn:hover, button.btn:hover, input.btn:hover {
-            color: #f26b38 !important;
+            color: #FDBD06 !important;
         }
 
         /* Formulario oscuro legible */
@@ -65,22 +65,22 @@ function german_glitche_force_dark_css() {
             border-color: #666666 !important;
         }
         input::placeholder, textarea::placeholder { color: #a2a2a6 !important; }
-        input:focus, textarea:focus { border-color: #f26b38 !important; }
+        input:focus, textarea:focus { border-color: #FDBD06 !important; }
         .wpcf7-submit, input[type="submit"] {
-            background: #f26b38 !important;
+            background: #FDBD06 !important;
             color: #ffffff !important;
-            border-color: #f26b38 !important;
+            border-color: #FDBD06 !important;
         }
         .wpcf7-submit:hover, input[type="submit"]:hover {
             background: transparent !important;
-            color: #f26b38 !important;
+            color: #FDBD06 !important;
         }
 
         /* Hero subtitle visible */
         .started-content .h-subtitles, .started-content .h-subtitle, .started-content .typed-subtitle {
             color: #f0f0f0 !important;
         }
-        .section.started .mouse_btn { color: #f26b38 !important; }
+        .section.started .mouse_btn { color: #FDBD06 !important; }
     </style>
     <?php
 }
