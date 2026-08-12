@@ -92,3 +92,70 @@ a:hover { color: #ff8c66; }
 .content-sidebar { display: none !important; }
 .sidebar_active .content-sidebar,
 .sidebar_active .sidebar { display: none !important; }
+
+/* Sobreescribir colores naranja del tema padre por amarillo marca #FDBD06 */
+a, .section.works .filters label, .section.started .mouse_btn,
+.header .head-top .top-menu ul li.current-menu-item > a,
+.header .head-top .top-menu ul li a:hover,
+.footer .soc a:hover .ion,
+.resume-items .resume-item .date,
+.skills ul li .progress .percentage,
+.box-items .box-item .category,
+.service-items .service-item .icon,
+.service-items .service-item .name,
+.service-items .service-item .service-item-inner:hover .icon,
+.skills.list ul li .name:before,
+.skills.dotted ul li .progress .da span,
+.skills.circles .progress .bar,
+.skills.circles .progress .bar .da span,
+.box-items .box-item .image .info .centrize,
+.section.started .mouse_btn .ion,
+.section.started .mouse_btn:hover .ion {
+    color: #FDBD06 !important;
+    border-color: #FDBD06 !important;
+    background-color: transparent !important;
+}
+
+/* Barras de progreso amarillas */
+.skills ul li .progress .percentage {
+    background: #FDBD06 !important;
+}
+
+/* Fechas de experiencia/educación */
+.resume-items .resume-item .date {
+    color: #FDBD06 !important;
+    border: 1px solid #FDBD06 !important;
+}
+
+/* Nombres de proyectos en portafolio: blancos por defecto, amarillo en hover */
+.box-items .box-item .desc .name,
+.box-items .box-item:hover .desc .name {
+    color: #f0f0f0 !important;
+}
+.box-items .box-item .desc .name a:hover,
+.box-items .box-item:hover .desc .name a {
+    color: #FDBD06 !important;
+}
+
+/* Icono de servicios en hover */
+.service-items .service-item .service-item-inner:hover .icon {
+    color: #FDBD06 !important;
+}
+
+/* Hover de enlaces */
+a:hover {
+    color: #FDBD06 !important;
+}
+
+/* Botones: borde amarillo, texto blanco; hover: fondo amarillo, texto oscuro */
+a.btn.fill, .btn.fill, button.btn.fill, input.btn.fill,
+a.btn, .btn, button.btn, input.btn {
+    border-color: #FDBD06 !important;
+    color: #ffffff !important;
+}
+a.btn.fill:hover, .btn.fill:hover, button.btn.fill:hover, input.btn.fill:hover,
+a.btn:hover, .btn:hover, button.btn:hover, input.btn:hover {
+    background: #FDBD06 !important;
+    color: #31313A !important;
+    border-color: #FDBD06 !important;
+}
