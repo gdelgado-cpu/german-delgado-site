@@ -100,7 +100,6 @@ a, .section.works .filters label, .section.started .mouse_btn,
 .footer .soc a:hover .ion,
 .resume-items .resume-item .date,
 .skills ul li .progress .percentage,
-.box-items .box-item .category,
 .service-items .service-item .icon,
 .service-items .service-item .name,
 .service-items .service-item .service-item-inner:hover .icon,
@@ -127,9 +126,10 @@ a, .section.works .filters label, .section.started .mouse_btn,
     border: 1px solid #FDBD06 !important;
 }
 
-/* Nombres de proyectos en portafolio: blancos por defecto, amarillo en hover */
+/* Nombres de proyectos y categorías en portafolio: blancos por defecto */
 .box-items .box-item .desc .name,
-.box-items .box-item:hover .desc .name {
+.box-items .box-item:hover .desc .name,
+.box-items .box-item .category {
     color: #f0f0f0 !important;
 }
 .box-items .box-item .desc .name a:hover,

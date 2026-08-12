@@ -39,7 +39,7 @@ function german_glitche_force_dark_css() {
         .skills ul li .progress .percentage { background: #FDBD06 !important; }
         .resume-items .resume-item .date { color: #FDBD06 !important; }
         .box-items .box-item .desc .name { color: #f0f0f0 !important; }
-        .box-items .box-item .category { color: #FDBD06 !important; }
+        .box-items .box-item .category { color: #f0f0f0 !important; }
 
         /* Botones con texto visible */
         a.btn.fill, .btn.fill, button.btn.fill, input.btn.fill {
