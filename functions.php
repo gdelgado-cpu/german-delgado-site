@@ -81,46 +81,6 @@ function german_glitche_force_dark_css() {
             color: #f0f0f0 !important;
         }
         .section.started .mouse_btn { color: #FDBD06 !important; }
-
-        /* Forzar color de marca en elementos restantes del tema padre */
-        :root { --main-color: #FDBD06 !important; --theme-color: #FDBD06 !important; --accent-color: #FDBD06 !important; }
-        .button, a.button, .glitche-btn, .glitche-button, .btn-primary, .btn-secondary,
-        input[type="button"], input[type="reset"], .wpcf7-form .wpcf7-submit,
-        .hero .btn, .hero a, .started-content .btn, .about-buttons a, .contact-buttons a,
-        .section .button, .section a.button, .content a.button {
-            background-color: #FDBD06 !important;
-            border-color: #FDBD06 !important;
-            color: #31313A !important;
-        }
-        .button:hover, a.button:hover, .glitche-btn:hover, .btn-primary:hover,
-        input[type="button"]:hover, .wpcf7-form .wpcf7-submit:hover,
-        .about-buttons a:hover, .contact-buttons a:hover, .hero .btn:hover {
-            background-color: transparent !important;
-            color: #FDBD06 !important;
-            border-color: #FDBD06 !important;
-        }
-        i, .ion, .icon, .lnr, .service-icon, .skill-icon, .fas, .fab, .fa,
-        .ion-social-linkedin, .ion-social-instagram, .ion-social-github, .ion-social-whatsapp,
-        .footer .soc a .ion, .footer .soc a:hover .ion,
-        .section.started .started-content .h-text-button, .h-text-button,
-        .section .content .title .title_inner::after, .title_inner::after,
-        .section-title::after, .heading::after, .line, .divider, .separator,
-        .resume-items .resume-item .name::after, .service-items .service-item .name::after,
-        .progress .percentage span, .skills .progress .percentage,
-        .box-items .box-item .image .category, .box-item .category,
-        .section.works .filters label:hover, .filters button:hover, .filters label.active,
-        .portfolio-filter button.active, .section.started .mouse_btn,
-        .preloader .spinner, .preloader .line, .preloader .spinner-line {
-            color: #FDBD06 !important;
-            background-color: #FDBD06 !important;
-            border-color: #FDBD06 !important;
-            fill: #FDBD06 !important;
-            stroke: #FDBD06 !important;
-            box-shadow: inset 0 -6px 0px #FDBD06 !important;
-        }
-        .section .content .title .title_inner {
-            box-shadow: inset 0 -6px 0px #FDBD06 !important;
-        }
     </style>
     <?php
 }
